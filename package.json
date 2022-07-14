@@ -1,0 +1,22 @@
+{
+  "name": "lyricalhome",
+  "version": "1.0.0",
+  "description": "02.110DH final project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasKei/LyricalHome.git"
+  },
+  "keywords": [
+    "lyrical"
+  ],
+  "author": "Cassie Chong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CasKei/LyricalHome/issues"
+  },
+  "homepage": "https://github.com/CasKei/LyricalHome#readme"
+}
