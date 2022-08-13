@@ -174,12 +174,12 @@ article p {
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
   p {
-    font-size: 60%;
+    font-size: 70%;
   }
   header {
-    padding: 10px 50px;
+    padding: 10px 30px;
   }
 }
