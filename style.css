@@ -21,7 +21,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 30px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +32,7 @@ header {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.7rem;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -45,7 +45,7 @@ header ul {
 
 header ul li {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 header ul li a {
@@ -149,92 +149,4 @@ article p {
   font-weight: 300;
   line-height: 2rem;
   text-align: center;
-}
-
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
-  html {
-    font-size: 100%;
-  }
-  p {
-    font-size: 100%;
-  }
-  header {
-    padding: 20px 70px;
-  }
-  .logo {
-    font-size: 2rem;
-  }
-  header ul li {
-    margin-left: 7px;
-  }
-  header ul li a {
-    padding: 5px 13px;
-    border-radius: 15px;
-    font-size: 1.7rem;
-  }
-  article {
-    padding: 70px;
-  }
-}
-
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 80%;
-  }
-  p {
-    font-size: 80%;
-  }
-  header {
-    padding: 20px 70px;
-  }
-  .logo {
-    font-size: 2rem;
-  }
-  header ul li {
-    margin-left: 7px;
-  }
-  header ul li a {
-    padding: 5px 13px;
-    border-radius: 15px;
-    font-size: 1.7rem;
-  }
-  article {
-    padding: 60px;
-  }
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 60%;
-  }
-  p {
-    font-size: 60%;
-  }
-  header {
-    padding: 20px 50px;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  header ul li {
-    margin-left: 7px;
-  }
-  header ul li a {
-    padding: 5px 13px;
-    border-radius: 15px;
-    font-size: 1.5rem;
-  }
-  article {
-    padding: 30px;
-  }
-}
-
-article {
-  position: relative;
-  padding: 100px;
-  background: #1c0522;
-  height: 100vh;
 }
