@@ -159,6 +159,20 @@ article p {
   p {
     font-size: 100%;
   }
+  header {
+    padding: 20px 70px;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  header ul li {
+    margin-left: 7px;
+  }
+  header ul li a {
+    padding: 5px 13px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+  }
 }
 
 /* 980px / 16px = 61.25em */
@@ -169,17 +183,42 @@ article p {
   p {
     font-size: 80%;
   }
+  header {
+    padding: 20px 70px;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  header ul li {
+    margin-left: 7px;
+  }
+  header ul li a {
+    padding: 5px 13px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+  }
 }
 
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size: 70%;
+    font-size: 60%;
   }
   p {
-    font-size: 70%;
+    font-size: 60%;
   }
   header {
-    padding: 10px 30px;
+    padding: 20px 70px;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  header ul li {
+    margin-left: 7px;
+  }
+  header ul li a {
+    padding: 5px 13px;
+    border-radius: 15px;
+    font-size: 1.7rem;
   }
 }
