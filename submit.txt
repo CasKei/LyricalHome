@@ -1,0 +1,12 @@
+https://caskei.github.io/LyricalHome/
+
+Please view the site on Desktop.
+Thank you.
+
+This tutorial helped me create the scrolling effect:
+https://www.youtube.com/watch?v=1wfeqDyMUx4
+It also provided me with the pictures.
+
+Full credits and attributions for the things I've used in this work are in the Attributions.txt file.
+
+The source code can be found here : https://github.com/CasKei/LyricalHome
