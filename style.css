@@ -32,7 +32,7 @@ header {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -53,7 +53,7 @@ header ul li a {
   padding: 6px 15px;
   color: #fff;
   border-radius: 20px;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 header ul li a:hover,
@@ -129,7 +129,7 @@ article {
 
 article h2 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -137,7 +137,7 @@ article h2 {
 
 article h3 {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 30px;
@@ -145,8 +145,38 @@ article h3 {
 
 article p {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   font-weight: 300;
   line-height: 2rem;
   text-align: center;
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 90%;
+  }
+  p {
+    font-size: 90%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 70%;
+  }
+  p {
+    font-size: 70%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 50%;
+  }
+  p {
+    font-size: 50%;
+  }
 }
